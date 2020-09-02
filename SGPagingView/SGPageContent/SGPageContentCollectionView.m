@@ -16,8 +16,6 @@
 @property (nonatomic, strong) NSArray *childViewControllers;
 /// flowLayout
 @property (nonatomic, weak) UICollectionViewFlowLayout *flowLayout;
-/// collectionView
-@property (nonatomic, strong) UICollectionView *collectionView;
 /// 记录刚开始时的偏移量
 @property (nonatomic, assign) NSInteger startOffsetX;
 /// 记录加载的上个子控制器的下标

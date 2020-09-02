@@ -58,6 +58,9 @@
 /** 点击标题触发动画切换滚动内容，默认为 NO */
 @property (nonatomic, assign) BOOL isAnimated;
 
+/// collectionView
+@property (nonatomic, strong) UICollectionView *collectionView;
+
 /** 给外界提供的方法，根据 SGPageTitleView 标题选中时的下标并显示相应的子控制器 */
 - (void)setPageContentCollectionViewCurrentIndex:(NSInteger)currentIndex;
 
